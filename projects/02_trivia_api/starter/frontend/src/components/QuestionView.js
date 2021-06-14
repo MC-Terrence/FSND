@@ -39,7 +39,6 @@ class QuestionView extends Component {
       }
     })
   }
-
   selectPage(num) {
     this.setState({page: num}, () => this.getQuestions());
   }
